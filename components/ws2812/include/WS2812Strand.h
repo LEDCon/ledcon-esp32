@@ -12,7 +12,7 @@ public:
   void show();
   void fill(const RGBColor& color);
   void setPixelColor(uint16_t index, const RGBColor& color);
-  void shiftBuffer(uint16_t by);
+  void shiftBuffer(uint16_t by = 1);
   virtual ~WS2812_Strand();
   uint16_t pixelCount;
   uint8_t pixelWidth;
